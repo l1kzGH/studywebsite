@@ -1,0 +1,162 @@
+header{
+    background: url(photos/header_background.jpg) top center repeat;
+    background-size: 100%;
+    opacity: 0.9;
+
+    display: block;
+    position: relative;
+    height: 180px;
+
+    border: 5px solid yellow;
+    border-radius: 20px;
+    border-style: outset;
+}
+
+.header_info{
+    font-size: 25px;
+}
+
+.header_info_text{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: Gill Sans, sans-serif;
+    text-decoration: overline;
+}
+
+body{
+    color: white;
+
+    display: block;
+    overflow: auto;
+
+    background: url(photos/body_background.jpg) top center repeat;
+    background-size: 100%;
+}
+
+.body_text1{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.body_text1_style_normal{
+    font-style: normal;
+}
+
+.body_bottom_line{
+    border-bottom: 2px solid yellow;
+}
+
+
+.shine-button{
+    font-family: 'Montserrat', sans-serif;
+    color: #fe6637;
+
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px;
+    
+    border: 2px solid #fe6637;
+    border-radius: 8px;
+    
+    transition: .2s ease-in-out;
+}
+
+.shine-button:hover{
+    background: #fe6637;
+    color: #fff;
+}
+
+.getButton{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    color: gray;
+
+    display: inline-block;
+    text-decoration: none;
+    
+    width: 100px;
+    height: 35px;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    
+    transition: .3s;
+}
+
+.getButton:hover{
+    background: #2EE59D;
+    color: white;
+}
+
+
+.body_example1, .body_example2, .body_example3, .body_example4,
+.body_example5, .body_example6, .body_example7{
+    display: none;
+
+    font-size: 20px;
+}
+
+.hrQuestion{
+    width: 400px;
+    margin-left: 0;
+}
+
+.screensave{
+    display: none;
+    color: red;
+
+    background: url(photos/screensave.jpg) center no-repeat;
+    background-size: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    width: 900px;
+    height: 300px;
+    
+    text-align: center;
+}
+
+.body_window{
+    display: none;
+
+    background: rgba(80, 77, 77, 0.7);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+        
+    width: 100%;
+    height: 100%;
+}
+
+.description{
+    color: orange;
+    font-size: 25px;
+}
+
+.body_description{
+    color: wheat;
+    font-size: 20px;
+}
+
+p{
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
